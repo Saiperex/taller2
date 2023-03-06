@@ -1,0 +1,29 @@
+@media screen and (max-width: 415px)
+{
+    .cabecera
+    {
+        border-radius: 0px;
+    } 
+    .cabecera_menu
+    {
+        display: none;
+    }  
+    .cabecera_contenedor
+    {
+        position: relative;
+        justify-content: center;
+    } 
+    .cabecera_logo
+    {
+        width: 80%;
+    }
+    .cabecera_button
+    {
+        display: flex;
+        position: absolute;
+    }
+    .menu_slider
+    {
+        display: block;
+    }
+}

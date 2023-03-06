@@ -1,0 +1,65 @@
+@font-face {
+    font-family: HamburgHand-Bold;
+    src: url("../resources/fonts/HamburgHand-Bold.otf");
+}
+.cabecera
+{
+    width: 100%;
+    height: 10vh;
+    background: linear-gradient(to bottom,#FFA347,#e36206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(66, 66, 66);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.cabecera_contenedor
+{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecera_area
+{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_item
+{
+    width: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    color: #000000;
+    border-radius: 20px;
+    font-family: "HamburgHand-Bold";
+    font-size: .8vw;
+    cursor: pointer;
+    transition: background-color 500ms ease-in-out,color 500ms ease-in-out;
+}
+.menu_item:hover
+{
+    background-color: #000000;
+    color: #ffffff;
+}
+.cabecera_logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecera_logo svg
+{
+    height: 170%;
+}
+.cabecera_button
+{
+    display: none;
+}
