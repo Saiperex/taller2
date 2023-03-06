@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     border: solid 1px black;
+    display: none;
 }
 .bar1, .bar2, .bar3
 {
@@ -35,8 +36,9 @@
 {
     position: absolute;
     left: 0;
+    top: 10vh;
     width: 250px;
-    height: 100vh;
+    height: 90vh;
     background: linear-gradient(180deg, #e36206 0%, #FFA347 100%);
     display: none;
     transition: left 500ms ease-in-out;

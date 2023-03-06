@@ -1,26 +1,22 @@
-@media screen and (max-width: 415px)
+@media screen and (max-width: 1000px) 
 {
-    .cabecera
-    {
-        border-radius: 0px;
-    } 
     .cabecera_menu
     {
         display: none;
-    }  
-    .cabecera_contenedor
+    }    
+    .cabecera 
     {
-        position: relative;
-        justify-content: center;
-    } 
-    .cabecera_logo
-    {
-        width: 80%;
+        height: 10vh;
     }
     .cabecera_button
     {
-        display: flex;
+        display:flex ;
         position: absolute;
+    }
+    .cabecera_contenedor
+    {
+        flex-direction: row;
+        position: relative;
     }
     .menu_slider
     {

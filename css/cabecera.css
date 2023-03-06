@@ -1,65 +1,65 @@
-@font-face {
-    font-family: HamburgHand-Bold;
-    src: url("../resources/fonts/HamburgHand-Bold.otf");
-}
 .cabecera
 {
+    z-index: 1;
+    position: fixed;
+    top: 0;
     width: 100%;
-    height: 10vh;
-    background: linear-gradient(to bottom,#FFA347,#e36206);
+    height: 20vh;
+    background-color: #F37C0E;
     display: flex;
-    align-items: center;
     justify-content: center;
-    border-bottom: 1px solid rgb(66, 66, 66);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    align-items: center;
 }
 .cabecera_contenedor
 {
-    width: 90%;
+    width: 95%;
     height: 95%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.cabecera_area
-{
-    width: 45%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.menu_item
-{
-    width: 16%;
-    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 70%;
-    color: #000000;
-    border-radius: 20px;
-    font-family: "HamburgHand-Bold";
-    font-size: .8vw;
-    cursor: pointer;
-    transition: background-color 500ms ease-in-out,color 500ms ease-in-out;
-}
-.menu_item:hover
-{
-    background-color: #000000;
-    color: #ffffff;
 }
 .cabecera_logo
 {
+    width: 60%;
+    height: 70%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 .cabecera_logo svg
 {
-    height: 170%;
+    height: 200%;
 }
-.cabecera_button
+.cabecera_menu
 {
-    display: none;
+    z-index: 1;
+    width: 60%;
+    min-width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Audiowide', cursive;
+    font-size: 1.5vh;
+    font-weight: bold;
+}
+.menu_item
+{
+    width: 16.6%;
+    height: 80%;
+    border-right: 5px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: font-size 500ms ease-in-out;
+}
+.menu_item:last-child
+{
+    border-right: none;
+}
+.menu_item:hover
+{
+    font-size: 2vh;
 }
