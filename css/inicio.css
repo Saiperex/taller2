@@ -1,0 +1,84 @@
+@font-face {
+    font-family:DS-DIDIB ;
+    src: url("../resources/fonts/DS-DIGIB.TTF");
+}
+.direccion
+{
+    width: 100%;
+    height: 3vh;
+    background-color: black;
+    overflow: hidden;
+}
+.direccion legend
+{
+    width: 100%;
+    color: white;
+    height: 100%;
+    font-family: DS-DIDIB;
+    font-size: 3vh;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    animation: mover-texto 20s infinite linear;
+}
+@keyframes mover-texto {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .inicio_contenido
+  {
+    width: 100%;
+    height: 77vh;
+    background-image: url("../imagenes/bg-inicio.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .inicio_blur
+  {
+    background-color: rgba(66, 66, 66, .5);
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenido_inicio
+  {
+    width: 95%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .contenido_inicio h2
+  {
+    font-family: 'Audiowide', cursive;
+    font-style: normal;
+    font-weight: 400;
+    color: #FE7A00;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+  }
+  .contenido_inicio h3
+  {
+    font-family: 'Audiowide', cursive;
+    font-style: normal;
+    font-weight: lighter;
+    color: #000000;
+    -webkit-text-stroke: 10px rgb(255, 255, 255);
+  }
+  .contenido_inicio button
+  {
+    font-size: 4vh;
+    font-family: 'Audiowide', cursive;
+    padding: 30px;
+    border-radius: 20px;
+    border: solid 10px #000000;
+    background-color: #FE7A00;
+    align-self: center;
+    color: #ffffff;
+  }

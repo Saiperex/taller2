@@ -34,7 +34,7 @@
 }
 .menu_slider
 {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 10vh;
     width: 250px;

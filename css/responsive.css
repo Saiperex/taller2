@@ -22,4 +22,35 @@
     {
         display: block;
     }
+    .seccion_conteiner
+    {
+        height: 90vh;
+    }
+    .direccion legend
+    {
+        width: 70ch;
+    }
+    .inicio_contenido
+    {
+        height: 87vh;
+        background-image: url(../imagenes/bg-inicio.jpg);
+    }
+    .inicio_blur
+    {
+        backdrop-filter: blur(10px);
+    }
+    .contenido_inicio h2
+    {
+        font-size: 4vh;
+        font-weight: bold;
+    }
+    .contenido_inicio h3
+    {
+        font-size: 3.5vh;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+    }
+    .contenido_inicio button
+    {
+        border: none;
+    }
 }
